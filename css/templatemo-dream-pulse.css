@@ -268,7 +268,7 @@ a {
   }
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
   .tm-gallery-wrap {
     max-width: 520px;
   }
@@ -277,6 +277,18 @@ a {
 @media (max-width: 480px) {
   .tm-gallery-wrap {
     max-width: 260px;
+  }
+}*/
+/* Override gallery width on small screens */
+
+@media (max-width: 767px) {
+  .tm-gallery-wrap {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 480px) {
+  .tm-gallery-wrap {
+    max-width: 100% !important;
   }
 }
 
